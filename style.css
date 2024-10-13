@@ -20,4 +20,23 @@ body {
     border-radius: 10px;
     text-align: center;
   }
-  
+  .one {
+    border: inset 5px #f6000c;
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+  }
+  .two {
+    height: 350px;
+    width: 350px;
+  }
+  #A:hover {
+    content: url(images/TMIA_hover.jpg);
+  }
+  #B:hover {
+    content: url(images/TLSof.png);
+  }
+  #C:hover {
+    content: url(images/WEof.webp);
+  }
