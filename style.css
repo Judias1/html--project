@@ -31,12 +31,12 @@ body {
     height: 350px;
     width: 350px;
   }
-  #A:hover {
+  .A:hover:hover {
     content: url(images/TMIA_hover.jpg);
   }
-  #B:hover {
+  .B:hover {
     content: url(images/TLSof.png);
   }
-  #C:hover {
-    content: url(images/WEof.webp);
+  .C:hover {
+    content: url(images/WEof.png);
   }
