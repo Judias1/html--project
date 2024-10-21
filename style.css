@@ -1,16 +1,23 @@
-body {
-    background-color: #0c1616;
-    font-family: "Creepster", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-  }
+ body {
+  background-color: #0c1616;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: wheat;
+ }
+ .not {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ }
   .info {
     border: inset #f6000c;
 
   }
-  h2 {
-    background-color: #00484e;
+  h2, h3, p{
+    text-align: center;
   }
 
   div {
@@ -25,13 +32,13 @@ body {
     display: inline-block;
     height: 350px;
     width: 350px;
-    margin: 10px;
+    margin-right: 60px;
   }
   .two {
     height: 350px;
     width: 350px;
   }
-  .A:hover:hover {
+  .A:hover {
     content: url(images/TMIA_hover.jpg);
   }
   .B:hover {
