@@ -1,49 +1,164 @@
- body {
-  background-color: #0c1616;
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  color: white;
- }
- .not {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+body{
+  background-color: black;
+ 
+}
+
+.background-img{
+  position: relative;
+  height: 600px;
+}
+.background-img .forest{
   width: 100%;
- }
-  .info {
-    border: inset #f6000c;
+  height: 100%;
+}
 
-  }
-  h2, h3, p{
-    text-align: center;
-  }
+.background-logo, .title-logo{
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
 
-  div {
-    background-color: #00484e;
-    border: solid #f6000c;
-    border-width: 5px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  .one {
-    border: inset 5px #f6000c;
-    display: inline-block;
-    height: 350px;
-    width: 350px;
-    margin-right: 60px;
-  }
-  .two {
-    height: 350px;
-    width: 350px;
-  }
-  .A:hover {
-    content: url(images/TMIA_hover.jpg);
-  }
-  .B:hover {
-    content: url(images/TLSof.png);
-  }
-  .C:hover {
-    content: url(images/WEof.png);
-  }
+span{
+  color: whitesmoke;
+  font-size: 4rem;
+}        
+
+.welcome{
+  position: absolute;    
+  top: 70px;
+  left: 470px;
+}
+
+.back-info{
+  position: absolute;
+  top: 320px;
+  left: 315px;
+  width: 710px;
+}
+
+.info{
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  font-style: oblique;
+  margin: 0;
+}
+
+.box{
+  position: relative;
+  padding: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.8rem;
+  row-gap: 1.8rem;
+  justify-content: space-evenly;
+
+}
+
+.box1{
+  top: 100px;
+  height: 300px;
+  width: 250px;  
+  text-align: center;         
+}
+.img1{
+  height: 300px;
+  width: 250px;
+}
+
+.navbar {
+  background-color: black;
+width: 100%;
+height: 20.5px;
+padding: 10px 5%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+left: 0;
+right: 0;
+z-index: 99;
+border-bottom: solid black 3px;
+flex-wrap: wrap;
+}
+
+.logo {
+align-items: center;
+width: 250px;
+height: 200px;
+position: absolute;
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+top: 3px;
+cursor: pointer;
+}
+
+
+.menu{
+margin-left: 600px;
+position: absolute;
+}
+
+.menu a{
+text-decoration: none;
+padding: 20px;
+}
+
+a{
+color: darkred;
+font-size: 18px;
+}
+.sub-title{
+position: absolute;
+}
+
+h2 {
+color: darkred;
+text-align: center;
+text-transform: uppercase;
+}
+
+p{
+color: white;
+font-size: 1.2rem;
+font-style: oblique;
+}
+
+footer .container {
+border-top: 2px inset darkred;
+width: 100%;
+display: inline-flex;
+gap: 65px;
+}
+
+footer .container .profile p{
+color: whitesmoke;
+text-align: justify;
+}
+
+p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+
+footer .container .links h2 {
+color: darkred;
+margin-bottom: 12px;
+}
+
+footer .container .contacts .number li p {
+color: darkred;
+}
+.copyright {
+width: 100%;
+background: #202223;    
+text-align: center;
+color: white;
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
